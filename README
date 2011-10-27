@@ -4,23 +4,23 @@ Requisitos gerais:
 	
 	-- git
 	-- python-pip
-  -- setuptools
-  -- stdeb (pip install stdeb)
+	-- setuptools
+	-- stdeb (pip install stdeb)
 
 *.egg (meu preferido)
 
-	python setup.py bdist_egg
+	-- python setup.py bdist_egg
 
 *.deb ((somente|ideal) em distribuições baseadas em debian)
 
 	Pre-requisitos para geração do *.deb
  
-		apt-get install debhelper
+	-- apt-get install debhelper
  
  	Comando para geração:
  
-		rm deb_dist/ -rvf; python setup.py --command-packages=stdeb.command bdist_deb
+	-- rm deb_dist/ -rvf; python setup.py --command-packages=stdeb.command bdist_deb
 
 *.rpm ((somente|ideal) em distribuições baseadas em rpm)
 
-	python setup.py bdist_rpm
+	-- python setup.py bdist_rpm
