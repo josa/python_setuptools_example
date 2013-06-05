@@ -3,8 +3,9 @@ Exemplo de Empacotamento de aplicações PYTHON
 Requisitos gerais:
 	
 	-- git
-	-- python-pip
-	-- setuptools
+	-- python-devel
+        -- python-setuptools
+	-- rpm-build
 	-- stdeb (pip install stdeb)
 
 *.egg (meu preferido)
